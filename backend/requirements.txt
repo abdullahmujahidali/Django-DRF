@@ -1,0 +1,9 @@
+asgiref==3.8.1
+Django==5.0.4
+django-allauth==0.54.0
+django-rest-auth==0.9.5
+django-rest-auth-forked==0.9.5
+django-rest-framework==0.1.0
+djangorestframework==3.15.1
+six==1.16.0
+sqlparse==0.5.0
