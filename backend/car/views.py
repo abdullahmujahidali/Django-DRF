@@ -4,6 +4,9 @@ from rest_framework.permissions import AllowAny
 
 
 @api_view(['GET'])
-@permission_classes([AllowAny])
+# @permission_classes([AllowAny])
 def hello_world(request):
+    print("rest_query: ", request.query_params)
+    print("id: ", request.query_params['id'])
+    print("search: ", request.query_params['search'])
     return Response({"message": "Hello, world!"})
